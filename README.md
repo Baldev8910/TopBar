@@ -1,5 +1,3 @@
-# TopBar
-
 # LegendBar
 
 A lightweight, modern custom top bar for Windows 11 — built with C# and WPF.
