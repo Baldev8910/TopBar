@@ -4,7 +4,7 @@ A lightweight, modern custom top bar for Windows 11 — built with C# and WPF.
 
 LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding live weather, a clock, date, reminders, and media controls in a sleek auto-hiding bar pinned to the top of your screen.
 
-![LegendBar Screenshot](assets/screenshot.png)
+![LegendBar Screenshot](Screenshots/1.png)
 
 ---
 
