@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="TopBar.Widgets.ClockWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <StackPanel Orientation="Horizontal"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+        <TextBlock x:Name="TimeText"
+                   Foreground="White"
+                   FontFamily="Segoe UI"
+                   FontSize="20"
+                   VerticalAlignment="Center"/>
+
+    </StackPanel>
+
+</UserControl>

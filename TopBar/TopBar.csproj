@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	<TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+	<TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+	<UseWindowsForms>true</UseWindowsForms>
+	<UseWinRT>true</UseWinRT>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+<ItemGroup>
+	<Resource Include="Assets\Media\pause.svg"/>
+	<Resource Include="Assets\Media\play.svg"/>
+	<Resource Include="Assets\Media\skip-back.svg"/>
+	<Resource Include="Assets\Media\skip-forward.svg"/>
+	<Resource Include="Assets\Weather\clear-day.svg"/>
+	<Resource Include="Assets\Weather\drizzle.svg"/>
+	<Resource Include="Assets\Weather\fog-day.svg"/>
+	<Resource Include="Assets\Weather\hail.svg"/>
+	<Resource Include="Assets\Weather\mostly-clear-day.svg"/>
+	<Resource Include="Assets\Weather\overcast-day-rain.svg"/>
+	<Resource Include="Assets\Weather\overcast-day.svg"/>
+	<Resource Include="Assets\Weather\partly-cloudy-day.svg"/>
+	<Resource Include="Assets\Weather\rain.svg"/>
+	<Resource Include="Assets\Weather\snow.svg"/>
+	<Resource Include="Assets\Weather\thunderstorms-day.svg"/>
+</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ModernWpfUI" Version="0.9.6" />
+    <PackageReference Include="SharpVectors.Reloaded" Version="1.8.5" />
+  </ItemGroup>
+
+</Project>

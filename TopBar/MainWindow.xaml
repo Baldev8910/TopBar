@@ -1,0 +1,70 @@
+﻿<Window x:Class="TopBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:widgets="clr-namespace:TopBar.Widgets"
+        Title="TopBar"
+        Height="40"
+        Width="1920"
+        WindowStyle="None"
+        AllowsTransparency="False"
+        Background="#CC1C1C1C"
+        ResizeMode="NoResize"
+        Topmost="True"
+        ShowInTaskbar="False">
+
+    <Grid Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="1"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ContextMenu>
+            <ContextMenu FontFamily="Segoe UI"
+                 FontSize="13">
+                <MenuItem Header="Settings" Click="Settings_Click"/>
+                <Separator/>
+                <MenuItem Header="Add Reminder" Click="AddReminder_Click"/>
+                <MenuItem Header="View Reminders" Padding="12,8" Click="ViewReminders_Click"/>
+                <Separator/>
+                <MenuItem x:Name="StartupMenuItem"
+                          Header="Launch on Startup"
+                          Padding="12,8"
+                          IsCheckable="True"
+                          Checked="Startup_Checked"
+                          Unchecked="Startup_Unchecked"/>
+                <Separator/>
+                <MenuItem Header="Exit" Padding="12,8" Click="ExitMenu_Click"/>
+            </ContextMenu>
+        </Grid.ContextMenu>
+
+        <!-- Main bar content area -->
+            <Grid Grid.Row="0">
+            <!-- Left side — Weather + Media -->
+            <StackPanel Orientation="Horizontal"
+                        HorizontalAlignment="Left"
+                        VerticalAlignment="Center"
+                        Margin="24,0,0,0">
+                            <widgets:WeatherWidget/>
+                            <widgets:MediaWidget/>
+                        </StackPanel>
+
+            <!-- Clock — true center -->
+                <widgets:ClockWidget HorizontalAlignment="Center"
+                         VerticalAlignment="Center"/>
+
+                <!-- Date — right side -->
+                <TextBlock x:Name="DateText"
+                           HorizontalAlignment="Right"
+                           VerticalAlignment="Center"
+                           Foreground="White"
+                           FontFamily="Segoe UI"
+                           FontSize="15"
+                           Margin="0,0,24,0"/>
+        </Grid>
+
+            <!-- Bottom border line — matches taskbar -->
+        <Rectangle Grid.Row="1" Fill="#FF454548"/>
+
+    </Grid>
+
+</Window>

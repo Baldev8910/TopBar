@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="TopBar.Widgets.WeatherWidget"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:svgc="http://sharpvectors.codeplex.com/svgc/">
+
+    <StackPanel Orientation="Horizontal"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Cursor="Hand"
+                MouseLeftButtonUp="Weather_Click">
+
+        <svgc:SvgViewbox x:Name="WeatherIcon"
+                         Width="18"
+                         Height="18"
+                         VerticalAlignment="Center"
+                         Margin="0,0,6,0"/>
+
+        <TextBlock x:Name="WeatherText"
+                   Foreground="White"
+                   FontFamily="Segoe UI"
+                   FontSize="15"
+                   VerticalAlignment="Center"
+                   Text="Loading..."/>
+
+    </StackPanel>
+
+</UserControl>
