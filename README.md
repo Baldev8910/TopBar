@@ -26,12 +26,12 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 
 ## Screenshots
 
-![LegendBar Screenshot](TopBar\Screenshots\1.png)
-![LegendBar Screenshot](TopBar\Screenshots\2.png)
-![LegendBar Screenshot](TopBar\Screenshots\3.png)
-![LegendBar Screenshot](TopBar\Screenshots\4.png)
-![LegendBar Screenshot](TopBar\Screenshots\5.png)
-![LegendBar Screenshot](TopBar\Screenshots\6.png)
+![LegendBar Screenshot](TopBar/Screenshots/1.png)
+![LegendBar Screenshot](TopBar/Screenshots/2.png)
+![LegendBar Screenshot](TopBar/Screenshots/3.png)
+![LegendBar Screenshot](TopBar/Screenshots/4.png)
+![LegendBar Screenshot](TopBar/Screenshots/5.png)
+![LegendBar Screenshot](TopBar/Screenshots/6.png)
 
 ---
 
