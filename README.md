@@ -4,7 +4,7 @@ A lightweight, modern custom top bar for Windows 11 — built with C# and WPF.
 
 LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding live weather, a clock, date, reminders, and media controls in a sleek auto-hiding bar pinned to the top of your screen.
 
-![LegendBar Screenshot](Screenshots/1.png)
+![LegendBar Screenshot](TopBar\Screenshots\1.png)
 
 ---
 
@@ -26,7 +26,12 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 
 ## Screenshots
 
-> *(Add screenshots here)*
+![LegendBar Screenshot](TopBar\Screenshots\1.png)
+![LegendBar Screenshot](TopBar\Screenshots\2.png)
+![LegendBar Screenshot](TopBar\Screenshots\3.png)
+![LegendBar Screenshot](TopBar\Screenshots\4.png)
+![LegendBar Screenshot](TopBar\Screenshots\5.png)
+![LegendBar Screenshot](TopBar\Screenshots\6.png)
 
 ---
 
@@ -42,20 +47,24 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 ## Installation
 
 ### Option 1 — Download Release
+
 1. Go to the [Releases](../../releases) page
 2. Download the latest `LegendBar.zip`
 3. Extract and run `LegendBar.exe`
 4. Right-click the bar → **Settings** → enable **Launch on Startup**
 
 ### Option 2 — Build from Source
+
 1. Clone the repo:
-   ```
-   git clone https://github.com/YourUsername/LegendBar.git
-   ```
-2. Open `LegendBar.sln` in **Visual Studio 2022**
-3. Set build mode to **Release**
-4. Press **Ctrl + Shift + B** to build
-5. Run `bin/Release/net10.0-windows10.0.19041.0/LegendBar.exe`
+
+```git
+git clone https://github.com/YourUsername/LegendBar.git
+```
+
+1. Open `LegendBar.sln` in **Visual Studio 2022**
+2. Set build mode to **Release**
+3. Press **Ctrl + Shift + B** to build
+4. Run `bin/Release/net10.0-windows10.0.19041.0/LegendBar.exe`
 
 ---
 
@@ -103,7 +112,7 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 
 ## Project Structure
 
-```
+```git
 LegendBar/
 ├── Assets/
 │   ├── Media/          # Media control SVG icons
