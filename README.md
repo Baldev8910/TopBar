@@ -46,7 +46,7 @@ TopBar replaces the missing "top taskbar" that Windows 11 removed, adding live w
 
 ## Installation
 
-### Option 1 — Download Release
+### Option 1 (Ha ek hi option hai) — Download Release
 
 1. Go "CODE" at the top
 2. Download the latest `TopBar.zip`
@@ -56,19 +56,6 @@ TopBar replaces the missing "top taskbar" that Windows 11 removed, adding live w
 6. Go to `bin > Release > net10.0-windows10.0.19041.0 > TopBar.exe`
 7. Run `TopBar.exe`
 8. Right-click the bar → **Settings** → enable **Launch on Startup**
-
-### Option 2 — Build from Source
-
-1. Clone the repo:
-
-```git
-git clone https://github.com/YourUsername/TopBar.git
-```
-
-1. Open `TopBar.sln` in **Visual Studio 2022**
-2. Set build mode to **Release**
-3. Press **Ctrl + Shift + B** to build
-4. Run `bin/Release/net10.0-windows10.0.19041.0/TopBar.exe`
 
 ---
 
