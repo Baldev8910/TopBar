@@ -50,8 +50,12 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 
 1. Go "CODE" at the top
 2. Download the latest `LegendBar.zip`
-3. Extract and run `LegendBar.exe`
-4. Right-click the bar → **Settings** → enable **Launch on Startup**
+3. Download and install VS Studio (Community Edition)
+4. Open the solution folder
+5. Choose "Release" and press `Ctrl + Shift + B` to build the solution
+6. Go to `bin > Release > net10.0-windows10.0.19041.0 > TopBar.exe`
+7. Run `TopBar.exe`
+8. Right-click the bar → **Settings** → enable **Launch on Startup**
 
 ### Option 2 — Build from Source
 
