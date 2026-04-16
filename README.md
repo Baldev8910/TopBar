@@ -1,10 +1,10 @@
-# LegendBar
+# TopBar
 
 A lightweight, modern custom top bar for Windows 11 — built with C# and WPF.
 
-LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding live weather, a clock, date, reminders, and media controls in a sleek auto-hiding bar pinned to the top of your screen.
+TopBar replaces the missing "top taskbar" that Windows 11 removed, adding live weather, a clock, date, reminders, and media controls in a sleek auto-hiding bar pinned to the top of your screen.
 
-![LegendBar Screenshot](TopBar/Screenshots/1.png)
+![TopBar Screenshot](TopBar/Screenshots/1.png)
 
 ---
 
@@ -26,12 +26,12 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 
 ## Screenshots
 
-![LegendBar Screenshot](TopBar/Screenshots/1.png)
-![LegendBar Screenshot](TopBar/Screenshots/2.png)
-![LegendBar Screenshot](TopBar/Screenshots/3.png)
-![LegendBar Screenshot](TopBar/Screenshots/4.png)
-![LegendBar Screenshot](TopBar/Screenshots/5.png)
-![LegendBar Screenshot](TopBar/Screenshots/6.png)
+![TopBar Screenshot](TopBar/Screenshots/1.png)
+![TopBar Screenshot](TopBar/Screenshots/2.png)
+![TopBar Screenshot](TopBar/Screenshots/3.png)
+![TopBar Screenshot](TopBar/Screenshots/4.png)
+![TopBar Screenshot](TopBar/Screenshots/5.png)
+![TopBar Screenshot](TopBar/Screenshots/6.png)
 
 ---
 
@@ -49,7 +49,7 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 ### Option 1 — Download Release
 
 1. Go "CODE" at the top
-2. Download the latest `LegendBar.zip`
+2. Download the latest `TopBar.zip`
 3. Download and install VS Studio (Community Edition)
 4. Open the solution folder
 5. Choose "Release" and press `Ctrl + Shift + B` to build the solution
@@ -62,13 +62,13 @@ LegendBar replaces the missing "top taskbar" that Windows 11 removed, adding liv
 1. Clone the repo:
 
 ```git
-git clone https://github.com/YourUsername/LegendBar.git
+git clone https://github.com/YourUsername/TopBar.git
 ```
 
-1. Open `LegendBar.sln` in **Visual Studio 2022**
+1. Open `TopBar.sln` in **Visual Studio 2022**
 2. Set build mode to **Release**
 3. Press **Ctrl + Shift + B** to build
-4. Run `bin/Release/net10.0-windows10.0.19041.0/LegendBar.exe`
+4. Run `bin/Release/net10.0-windows10.0.19041.0/TopBar.exe`
 
 ---
 
@@ -83,7 +83,7 @@ git clone https://github.com/YourUsername/LegendBar.git
 | Right-click → Add Reminder | Opens reminder form |
 | Right-click → View Reminders | Opens reminders list |
 | Right-click → Settings | Opens settings popup |
-| Right-click → Exit | Closes LegendBar |
+| Right-click → Exit | Closes TopBar |
 
 ---
 
@@ -96,7 +96,7 @@ git clone https://github.com/YourUsername/LegendBar.git
 | Animation Speed | How fast the bar slides in/out |
 | Temperature Unit | Switch between °C and °F |
 | Weather Refresh | How often weather data is fetched (5–60 min) |
-| Launch on Startup | Start LegendBar with Windows |
+| Launch on Startup | Start TopBar with Windows |
 
 ---
 
@@ -117,7 +117,7 @@ git clone https://github.com/YourUsername/LegendBar.git
 ## Project Structure
 
 ```git
-LegendBar/
+TopBar/
 ├── Assets/
 │   ├── Media/          # Media control SVG icons
 │   └── Weather/        # Weather condition SVG icons
