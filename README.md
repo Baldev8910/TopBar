@@ -1,6 +1,7 @@
 # TopBar
 
-> [!warning]+ Work-In-Progress
+> [!WARNING]
+> **Work-In-Progress**
 > Use at your own risk!
 
 A lightweight, modern custom top bar for Windows 11 — built with C# and WPF.
