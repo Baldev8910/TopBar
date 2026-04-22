@@ -1,5 +1,8 @@
 # TopBar
 
+> [!warning]+ Work-In-Progress
+> Use at your own risk!
+
 A lightweight, modern custom top bar for Windows 11 — built with C# and WPF.
 
 TopBar replaces the missing "top taskbar" that Windows 11 removed, adding live weather, a clock, date, reminders, and media controls in a sleek auto-hiding bar pinned to the top of your screen.
